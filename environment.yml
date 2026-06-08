@@ -16,6 +16,7 @@ dependencies:
   - statsmodels
   - requests
   - sqlalchemy
+  - python-duckdb
   - beautifulsoup4
   - nltk
   - wordcloud
