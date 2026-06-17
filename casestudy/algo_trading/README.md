@@ -81,7 +81,7 @@ casestudy/
 │   ├── 151TradingStrategies.pdf  # Inspiration for potential strategies
 │   └── Example [...].pdf  # Example strategy proposals
 ├── README.md  # Case description
-├── requirements.yml  # Conda environment
+├── environment.yml  # Conda environment
 ├── run.py  # Replicate the results
 ├── backtest.py   # The backtest is conducted here
 ├── data.py       # Deribit API data is downloaded here
@@ -136,19 +136,19 @@ You have time to submit your results until the last lecture, how you provision y
 
 Attendance of these sessions is voluntary yet highly recommended.
 
-In order to ensure that your code runs smoothly on my system, you should run everything in a dedicated Conda environment. A base environment is contained in `requirements.yml`. You are free to install additional packages (make sure that you update requirements.yml thereafter). In order to install the environment on your machine, you can run
+In order to ensure that your code runs smoothly on my system, you should run everything in a dedicated Conda environment. A base environment is contained in `environment.yml`. You are free to install additional packages (make sure that you update environment.yml thereafter). In order to install the environment on your machine, you can run
 ```Bash
-conda env create -f requirements.yml 
+conda env create -f environment.yml
 ```
 In order to run code inside the environment
 ```Bash
-conda activate case-env
+conda activate algocase-env
 # Do your thing ...
 conda deactivate
 ```
-If you have installed packages into your active(!) casestudy environment, you have to update requirements.yml with
+If you have installed packages into your active(!) casestudy environment, you have to update environment.yml without exporting all transitive dependencies with
 ```Bash
-conda env export > requirements.yml
+conda env export --from-history > environment.yml
 ```
 
 
@@ -160,7 +160,7 @@ Code:
 * Submit **executable** code.
 * You are expected to guide us through your work, e.g. by an appropriate **README.md** file and comments inside your code. 
 * Make sure (test) that your code can be executed.
-* Use and update the environment in **requirements.yml**.
+* Use and update the environment in **environment.yml**.
 
 Strategy proposal:
 * For inspiration, have a look at the examples inside casestudy/supplements/

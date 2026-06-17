@@ -1,0 +1,17 @@
+#
+# Base case study environment for algorithmic trading.
+#
+name: algocase-env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - requests
+  - vectorbt
