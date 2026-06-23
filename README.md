@@ -39,10 +39,11 @@ Every student is welcome to attend the course and submit assignments. However, *
   * 04_var [Due May 27, 2026, 08:00 UTC]
   * 05_optimization [Due May 27, 2026, 08:00 UTC]
   * 06_nlp [Due June 3, 2026, 08:00 UTC]
-  * 07_datam 
-  * 08_deribit 
-  * 09_satellites 
   * **esg_reporting case presentation [Due July 1, 2026, 08:00 UTC]**
+  * 07_datam [Due July 31, 2026, 08:00 UTC]
+  * 08_django [Due July 31, 2026, 08:00 UTC]
+  * 09_satellites [Due July 31, 2026, 08:00 UTC]
+  * 10_django_pt2 [Due July 31, 2026, 08:00 UTC]
   * **esg_reporting case final submission [Due July 31, 2026, 08:00 UTC]**
 
 > ** Please submit all homework assignments to the 01_setup repository. You can find all homework assignments in the corresponding [homework/](https://github.com/cafawo/FinancialDataAnalytics/tree/master/homework) folder.
